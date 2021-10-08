@@ -39,8 +39,9 @@ public class Main {
             if(tempTree.left == null){  // 表示为左叶子节点,就要回溯了
                 tempTree = tree_stack.pop().right;
                 total_value += tempTree.value;
-
+            
             }
+            break;
         }
         
         return new ArrayList<Integer>();

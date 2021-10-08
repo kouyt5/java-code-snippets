@@ -25,7 +25,7 @@ public class BuilderTest {
     // 禁止外部初始化类
     private BuilderTest(){}
 
-    public class Builder {
+    public final static class Builder {
         private BuilderTest _builderTest = new BuilderTest();
         public BuilderTest build() {
             return this._builderTest;
@@ -42,7 +42,7 @@ public class BuilderTest {
     }
 
     public static void main(String[] args) {
-        Builder builder = new BuildTest.Builder();
+        Builder builder = new BuilderTest.Builder();
     }
     
 }
