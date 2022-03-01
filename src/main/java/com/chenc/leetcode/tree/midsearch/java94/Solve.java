@@ -1,4 +1,4 @@
-package com.chenc.leetcode.midsearch.java94;
+package com.chenc.leetcode.tree.midsearch.java94;
 
 import java.util.ArrayList;
 import java.util.List;
