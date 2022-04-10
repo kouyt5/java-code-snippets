@@ -46,6 +46,5 @@ public class Solution {
         System.out.println(solution.permutation("aac"));
         Map<Integer, Integer> map = new HashMap<>();
         map.get(Integer.valueOf(0));
-        map.containsKey(key)
     }
 }
