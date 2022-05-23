@@ -25,11 +25,10 @@ public class Main {
         nums[i] = key;
         quicksort(nums, start, i);
         quicksort(nums, i+1, end);
-
     }
     public static void main(String[] args) {
         int[] nums = new int[]{
-            7,1,4,8,2,5
+            1,0,2,2,1,0
         };
         Main.quicksort(nums, 0, nums.length-1);
         System.out.println("x");
